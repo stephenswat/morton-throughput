@@ -21,8 +21,7 @@ to be available.
 To use this repository, perform a one-time installation of its dependencies:
 
 ```bash
-poetry lock
-poetry install --no-root
+poetry install
 ```
 
 Then run the analysis through Snakemake:

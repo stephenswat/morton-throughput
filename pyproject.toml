@@ -5,13 +5,12 @@ description = ""
 authors = ["Stephen Nicholas Swatman"]
 license = "Unlicense"
 readme = "README.md"
-packages = [{include = "morton_throughput"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 matplotlib = "^3.7.2"
 pandas = "^2.0.3"
-osaca = {git = "https://github.com/stephenswat/OSACA.git", rev = "b6bdbd1"}
+osaca = {git = "https://github.com/RRZE-HPC/OSACA.git", rev = "6d275a1207d2b3873da0a20dedeebc466c43ba30"}
 snakemake = "^7.32.3"
 
 [tool.poetry.group.dev.dependencies]
